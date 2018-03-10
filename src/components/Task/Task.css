@@ -1,0 +1,40 @@
+#tasks-list li {
+    display: flex;
+    /* border: solid 1px red; */
+    align-items: center;
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#tasks-list li div {
+    border: solid 1px lightgray;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #53a7ee;
+    margin: 5px 15px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+#tasks-list li p {
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#tasks-list li p span {
+    font-size: 13px;
+    color: gray;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: gray !important;
+}

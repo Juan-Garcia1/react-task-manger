@@ -1,0 +1,66 @@
+#task-info {
+    height: 100%;
+    position: relative;
+}
+
+#task-info-header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    justify-content: space-between;
+}
+
+#task-info-header button {
+    color: #53a7ee;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background: none;
+}
+
+#task-info-list {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#task-info-list li {
+    display: flex;
+    flex-direction: column;
+}
+
+#task-info-list li div {
+    padding: 30px 15px 0;
+}
+
+#task-info-list li p {
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+}
+
+#task-info-list p span {
+    color: lightgray;
+    font-size: 13px;
+}
+
+#task-info-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+#task-info-btns button {
+    flex: 1;
+    color: white; 
+    border: none;
+    cursor: pointer;
+    margin: 0px 10px;
+    padding: 15px;
+    background: #89CBF0;
+    text-transform: uppercase;
+}

@@ -1,0 +1,46 @@
+::-webkit-input-placeholder {
+    color: lightgray;
+    font-size: 16px;
+}
+
+.form {
+    height: 100%;
+    display: flex;
+    padding: 50px 20px 30px;
+    background: #46549E;
+    flex-direction: column;
+}
+
+.form select option {
+    outline: none;
+    background: #46549E;
+}
+
+.form input, .form select {
+    color: lightgray;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 30px;
+}
+
+.form input, .form select:focus {
+    color: white;
+}
+
+.form select {
+    padding-left: 0;
+}
+
+.form button {
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: auto;
+    background: #89CBF0;
+    text-transform: uppercase;
+}

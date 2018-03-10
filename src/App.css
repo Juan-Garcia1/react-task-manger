@@ -1,0 +1,25 @@
+*, *:before, *:after {
+    box-sizing: border-box
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;           
+}
+
+a {
+    text-decoration: none;
+}
+
+.App {
+    margin: auto;
+    height: 100vh;
+    max-width: 500px;
+    box-shadow: 0 0 10px 0 gray;
+}
